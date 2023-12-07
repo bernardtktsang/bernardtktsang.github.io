@@ -66,6 +66,7 @@ section {
     font-weight: normal;
     font-family: 'Bradley Hand', sans-serif;
     font-style: italic;
+    display: block;
 }
 
 #company-description-long {
