@@ -1,0 +1,165 @@
+body {
+    font-family: 'Trebuchet MS', sans-serif; /* Changed font */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f7f6;
+    color: #333333;
+    line-height: 1.6; /* Added line spacing */
+}
+
+header {
+    background-color: white;
+    color: #003f5c;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    align-items: center; /* This ensures vertical alignment */
+    justify-content: start; /* Aligns items to the start of the header */
+}
+
+#company-logo {
+    height: 35px;
+    width: auto;
+    margin-right: 10px;
+    margin-left: 15px; /* Space between logo and company name */
+}
+
+#company-name {
+    margin: 0;
+    font-size: 1.8em;
+    margin-right: 10px; /* Space between company name and short description */
+}
+
+#short-description {
+    margin: 0;
+    font-size: 1.5em;
+    color: #003f5c92;
+    font-weight: normal;
+    /*font-family: 'Bradley Hand', sans-serif;*/
+}
+
+
+section {
+    padding: 0px 0; 
+}
+
+#company-description-short-first {
+    font-size: 3em; /* Adjusted font size */
+    margin: 135px 20% 0px;
+    padding: 5px;
+    border-radius: 0; /* Remove border radius */
+    box-shadow: none; /* Remove box shadow */
+    background-color: transparent; /* Remove background color */
+    color: #003f5c
+}
+
+.company-description-short-second {
+    font-size: 1em; /* Adjusted font size */
+    margin: 0px 20% 0px;
+    padding: 0px;
+    border-radius: 0; /* Remove border radius */
+    box-shadow: none; /* Remove box shadow */
+    background-color: transparent; /* Remove background color */
+    color: #003f5c;
+    font-weight: normal;
+    font-family: 'Bradley Hand', sans-serif;
+    font-style: italic;
+}
+
+#company-description-long {
+    background-color: white;
+    margin: 5px 20% 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: none; /* Remove box shadow */
+    background-color: transparent; /* Remove background color */
+    color: #505f65;
+}
+
+footer {
+    background-color: transparent;
+    color: white;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#signup-button {
+    background-color: #234a74;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+#signup-button:hover {
+    background-color: #1a3757;
+}
+
+#emailModal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Dimmed background */
+}
+
+#emailModal div {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 40%;
+    max-width: 500px;
+    text-align: center;
+}
+
+#closeModal {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    color: #aaa;
+    cursor: pointer;
+}
+
+#closeModal:hover, #closeModal:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input[type=email] {
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
